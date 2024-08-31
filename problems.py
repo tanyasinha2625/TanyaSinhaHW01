@@ -18,6 +18,13 @@ def problem0(num):
 
 
 def problem1(year):
+    if (year%400 == 0) or (year %4=0 and year %100)
+        return "leap"
+    else if year %2
+        return "odd"
+    else
+        return "even"
+
     """
     When given a year, determine if the year is even or odd, but if it is an election year (divisible by 4) return
 
